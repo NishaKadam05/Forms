@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <div class="form">
+        <form class="reg" action="frm">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="  Enter Your Name"><br><br>
+            </p>
+            <p>
+                <label for="roll-no">Roll No:</label>
+                <input type="text" placeholder="  Enter Your Roll No" required><br><br>
+            </p>
+            <p>
+                <label for="dept">Department:</label>
+                <select name="dept" id="dept" required>
+                    <option value="">  Choose Your Department</option>
+                    <option value="cse">CSE</option>
+                    <option value="it">IT</option>
+                    <option value="Aiml">AI ML</option>
+                    <option value="ece">ECE</option>
+                    <option value="ft">FOOD TECHNOLOGY</option>
+                    <option value="BME">BIOMEDICAL</option>
+                    <option value="civil">CIVIL</option>
+                </select><br><br>
+            </p>
+            <p>
+                <label for="10-mark">10th Marks:</label>
+                <input type="text" placeholder="  Enter Your 10th Marks" required><br><br>
+            </p>
+            <p>
+                <label for="12-mark">12th Marks:</label>
+                <input type="text" placeholder="  Enter Your 12th Marks" required><br><br>
+            </p>
+            <p>
+                <label for="degree">UG CGPA:</label>
+                <input type="text" placeholder="    Enter Your CGPA" required>
+            </p><br><br>
+        </form>
+            <div class="btn">
+                <form action="btn">
+                    <button class="btn-1">Submit</button>
+                    <button class="btn-2">Cancel</button>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
